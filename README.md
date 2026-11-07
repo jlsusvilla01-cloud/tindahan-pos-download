@@ -4,7 +4,7 @@ A cloud point-of-sale for sari-sari and variety stores, for Windows (64-bit).
 
 ## Download
 
-**[Download Tindahan POS for Windows](https://github.com/jlsusvilla01-cloud/tindahan-pos-download/releases/latest/download/Tindahan-POS-Setup-1.0.1.exe)** (about 78 MB)
+**[Download Tindahan POS for Windows](https://github.com/jlsusvilla01-cloud/tindahan-pos-download/releases/latest/download/Tindahan-POS-Setup-1.0.2.exe)** (about 78 MB)
 
 ## Install
 
