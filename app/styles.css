@@ -327,6 +327,26 @@ svg.chart text{fill:var(--muted);font-size:11px;font-family:var(--f-body)}
 .pick[aria-pressed="true"]{border-color:var(--brand);background:var(--brand-soft)}
 .updbar{position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:40;display:flex;align-items:center;gap:12px;padding:8px 8px 8px 14px;border-radius:12px;background:var(--surface);color:var(--ink);font-weight:600;font-size:13.5px;box-shadow:0 8px 24px rgba(0,0,0,.25);white-space:nowrap}
 .updbar[hidden]{display:none}
+.updbar .x{width:28px;height:28px}
+.side-ver{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.side-ver .linkbtn{font-size:12px}
+.modal.wn-modal{width:min(860px,100%)}
+.wn-head{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.wn-head>div{display:flex;flex-direction:column;gap:3px;font-size:12.5px;min-width:0}
+.wn-head b{font-size:15px;font-variant-numeric:tabular-nums}
+.wn-ok{color:var(--good)}.wn-up{color:var(--warn)}
+.wn-note{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:10px 14px;font-size:13.5px;color:var(--muted)}
+.wn-h{font-size:13px;font-weight:700;color:var(--muted)}
+.wn-list{max-height:48vh;overflow:auto;margin-top:-6px}
+.wn-row{display:grid;grid-template-columns:150px 1fr;gap:14px;padding:11px 4px;border-bottom:1px solid var(--line);font-size:13.5px;line-height:1.5}
+.wn-row:last-child{border-bottom:0}
+.wn-row.cur{background:var(--surface-2);border-radius:8px}
+.wn-v{font-family:ui-monospace,Consolas,monospace;font-weight:700;color:var(--muted);display:flex;flex-direction:column;align-items:flex-start;gap:5px}
+.wn-v .tag{font-family:inherit;font-size:11px}
+.tag.ok{background:var(--good-soft);color:var(--good);border-color:transparent}
+.tag.wn-new{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+.wn-t p{margin:0 0 6px}.wn-t p:last-child{margin:0}.wn-t ul{margin:0 0 6px;padding-left:18px}
+@media (max-width:640px){.wn-head{grid-template-columns:1fr 1fr}.wn-row{grid-template-columns:1fr;gap:4px}.wn-v{flex-direction:row;align-items:center}}
 .toasts{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));display:grid;gap:8px;z-index:60}
 .toast{background:var(--ink);color:var(--surface);padding:10px 14px;border-radius:10px;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,.2);max-width:340px}
 .toast.bad{background:var(--bad);color:#fff}
