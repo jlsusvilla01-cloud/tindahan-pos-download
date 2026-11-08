@@ -206,15 +206,6 @@ svg.chart{width:100%;height:auto;display:block}
 @media (max-width:760px){ .cmp-grid{grid-template-columns:minmax(0,1fr)} }
 .isort{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:500;color:var(--muted)}
 .isort select{width:auto;padding:6px 10px;font-size:13px;height:auto}
-.drop{border:2px dashed var(--line);border-radius:var(--r);padding:34px 16px;display:grid;justify-items:center;gap:10px;text-align:center}
-.drop.on{border-color:var(--brand);background:var(--brand-soft)}
-.rc-reading{display:flex;align-items:center;gap:16px;padding:12px 0}
-.rc-reading img,.rc-thumb{width:110px;max-height:150px;object-fit:cover;border-radius:8px;border:1px solid var(--line)}
-.rc-top{display:flex;gap:16px;align-items:flex-start}
-.rc-tbl td{vertical-align:middle}
-.rc-tbl tr.nomatch td{background:var(--warn-soft)}
-.rc-tbl .bad,.rc-top .bad{color:var(--bad)} .rc-tbl .good,.rc-top .good{color:var(--good)}
-@media (max-width:760px){ .rc-top{flex-direction:column} }
 .schart-card{margin-bottom:14px}
 .schart{position:relative;padding:4px 12px 10px}
 .schart .bar{pointer-events:none}
@@ -305,8 +296,6 @@ svg.chart text{fill:var(--muted);font-size:11px;font-family:var(--f-body)}
 .scrim{position:fixed;inset:0;background:var(--scrim);display:flex;align-items:center;justify-content:center;padding:20px;z-index:50}
 .modal{background:var(--surface);border-radius:16px;width:min(520px,100%);max-height:calc(100% - 20px);overflow:auto;box-shadow:0 20px 60px rgba(0,0,0,.25)}
 .modal.wide{width:min(760px,100%)}
-.modal.xwide{width:min(1120px,100%)}
-.modal.xwide .modal-b{grid-template-columns:minmax(0,1fr)}
 .modal-h{display:flex;justify-content:space-between;align-items:center;padding:18px 20px 6px;gap:10px}
 .modal-h h2{font-size:20px}
 .modal-b{padding:10px 20px 20px;display:grid;gap:14px}
