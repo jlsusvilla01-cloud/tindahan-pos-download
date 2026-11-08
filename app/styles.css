@@ -204,6 +204,10 @@ svg.chart{width:100%;height:auto;display:block}
 .cmp-grid .up{color:var(--good);font-size:13px;font-weight:700;font-family:var(--f-body)} .cmp-grid .down{color:var(--bad);font-size:13px;font-weight:700;font-family:var(--f-body)}
 .cmp-now{font-size:12.5px;padding:10px 16px 12px;border-top:1px solid var(--line)}
 @media (max-width:760px){ .cmp-grid{grid-template-columns:minmax(0,1fr)} }
+.fp-now{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fp-now>div{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;font-size:12.5px}
+.fp-now b{font-size:17px;font-variant-numeric:tabular-nums}
+.fp-new{min-height:20px;font-size:14px}
 .isort{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:500;color:var(--muted)}
 .isort select{width:auto;padding:6px 10px;font-size:13px;height:auto}
 .schart-card{margin-bottom:14px}
