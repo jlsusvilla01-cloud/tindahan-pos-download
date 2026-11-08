@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com https://*.firebaseapp.com;">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1A37BE">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Tindahan POS</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="auth" class="auth"></div>
+
+<div class="app" id="app" hidden>
+  <aside class="side" aria-label="Main">
+    <div class="brandmark">
+      <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><rect x="5" y="17" width="30" height="18" rx="3" fill="#FFFFFF"/><path d="M3 10h34l-1.5 7.5a3.6 3.6 0 0 1-6.8 0 3.6 3.6 0 0 1-6.7 0 3.6 3.6 0 0 1-6.7 0 3.6 3.6 0 0 1-6.8 0z" fill="#F4B400"/><path d="M9 10l-1.6 7.5M16 10l-.6 7.5M24 10l.6 7.5M31 10l1.6 7.5" stroke="#1A37BE" stroke-width="1.4"/><rect x="5" y="6" width="30" height="5" rx="2" fill="#FFFFFF"/><rect x="16" y="24" width="8" height="11" rx="1.5" fill="#1A37BE"/></svg>
+      <div><b>Tindahan</b><small>Cloud POS</small></div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot" id="side-foot"></div>
+  </aside>
+  <div class="main">
+    <header class="top">
+      <div class="store"><b id="store-name">My Store</b><span id="store-loc"></span></div>
+      <div class="grow"></div>
+      <span class="pill" id="sync"><i></i><span class="ptxt">Connecting…</span></span>
+      <div class="clock num" id="clock"></div>
+      <div class="who" id="who"></div>
+    </header>
+    <main class="view" id="view"></main>
+  </div>
+</div>
+<nav class="bottomnav" id="bottomnav" aria-label="Main" hidden></nav>
+<div class="updbar" id="updbar" hidden></div>
+<div id="modal-root"></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<script src="bundle.js"></script>
+</body>
+</html>

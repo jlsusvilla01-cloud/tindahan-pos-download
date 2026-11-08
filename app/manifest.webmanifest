@@ -1,0 +1,17 @@
+{
+ "name": "Tindahan POS",
+ "short_name": "Tindahan",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#0B1020",
+ "theme_color": "#1A37BE",
+ "icons": [
+  {
+   "src": "icon.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ]
+}
