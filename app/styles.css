@@ -80,6 +80,8 @@ body.viewonly .bottomnav{grid-template-columns:repeat(7,1fr)}
 .duty-card.two .duty-slot{padding:14px 18px}
 .duty-card.two .duty-slot.asst{border-left:1px solid var(--line)}
 .duty-name.sm{font-size:19px}
+.duty-slot .linkbtn.tin{font-size:13px;font-weight:600}
+.duty-card .eyebrow .linkbtn{font-size:inherit;letter-spacing:inherit;text-transform:none}
 .duty-slot .dur{color:var(--ink);font-variant-numeric:tabular-nums}
 .duty-chip .dur{font-weight:600}
 @media (max-width:1200px){ .duty-card.two{grid-template-columns:minmax(0,1fr)} .duty-card.two .duty-slot.asst{border-left:0;border-top:1px solid var(--line)} }
