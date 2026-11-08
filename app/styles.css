@@ -208,6 +208,12 @@ svg.chart{width:100%;height:auto;display:block}
 .fp-now>div{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;font-size:12.5px}
 .fp-now b{font-size:17px;font-variant-numeric:tabular-nums}
 .fp-new{min-height:20px;font-size:14px}
+.tbl td.r{white-space:nowrap}
+.modal.wide:has(.loss-tbl){width:min(1000px,100%)}
+.tbl .rownum{width:1%;color:var(--muted);font-size:12.5px;font-variant-numeric:tabular-nums;padding-right:4px}
+.ih-count{font-size:12.5px;font-weight:500}
+.ih-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+.loss-btn{color:var(--bad);border-color:var(--bad-soft);background:var(--bad-soft)}
 .isort{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:500;color:var(--muted)}
 .isort select{width:auto;padding:6px 10px;font-size:13px;height:auto}
 .schart-card{margin-bottom:14px}
