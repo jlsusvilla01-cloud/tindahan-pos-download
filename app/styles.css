@@ -177,7 +177,7 @@ table.tbl{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
 .kpi.hero{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
 .kpi.hero .eyebrow,.kpi.hero .d{color:color-mix(in srgb,var(--brand-ink) 78%,transparent)}
 .kpi.hero .d .up,.kpi.hero .d .down{color:var(--brand-ink)}
-.strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:14px}
+.strip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-bottom:14px}
 .mini{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px}
 .mini .eyebrow{font-size:11px}
 .mini .v{font-weight:700;font-size:18px;font-variant-numeric:tabular-nums}
@@ -346,6 +346,7 @@ svg.chart text{fill:var(--muted);font-size:11px;font-family:var(--f-body)}
 .bt-go{margin-top:4px}.btable .row.bt-go{gap:8px}.btable .btn.primary{flex:1;justify-content:center}
 .btable > .btn.sun{justify-content:center}
 .field > .seg{justify-self:start}
+.gc-mini .gc-sub{font-size:12px;color:var(--muted);margin-top:2px}.gc-mini .gc-sub .balchk{display:inline;padding:0;background:none;font-weight:600}
 .bz-mq{max-width:220px;padding:6px 10px;font-size:13.5px}
 .li.voided .t,.li.voided .num{color:var(--muted);text-decoration:line-through}
 .allbiz{margin-bottom:14px}
