@@ -99,6 +99,14 @@ body.viewonly .bottomnav{grid-template-columns:repeat(7,1fr)}
 .crew-pick:hover,.crew-pick[aria-pressed="true"]{border-color:var(--brand);background:var(--brand-soft)}
 .crew-pick:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 .crew-pick b{font-size:14px}
+.dutygate{position:fixed;inset:0;z-index:48;background:var(--bg);overflow:auto;display:grid;place-items:center;padding:24px 16px}
+.dg-card{width:min(760px,100%);background:var(--surface);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:26px;display:grid;gap:18px}
+.dg-card .brandmark{padding:0;color:var(--ink)}.dg-card .brandmark small{color:var(--muted)}
+.dg-card h1{font-size:24px;font-weight:800;margin:0}
+.dg-sec{display:grid;gap:10px}.dg-sec[aria-disabled="true"]{opacity:.45}
+.dg-h{font-weight:700;font-size:14px}
+.dg-pin{display:flex;align-items:flex-end;gap:10px;flex-wrap:wrap}
+.dg-go{justify-content:center;padding:14px;font-size:16px}
 .crew-photo{display:grid;justify-items:center;gap:10px}
 .crew-photo video{width:220px;height:165px;border-radius:12px;object-fit:cover;background:#000}
 .clock{color:var(--muted);font-size:13px;text-align:right;line-height:1.25}
