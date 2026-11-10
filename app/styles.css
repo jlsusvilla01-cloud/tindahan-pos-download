@@ -346,6 +346,9 @@ svg.chart text{fill:var(--muted);font-size:11px;font-family:var(--f-body)}
 .bt-go{margin-top:4px}.btable .row.bt-go{gap:8px}.btable .btn.primary{flex:1;justify-content:center}
 .btable > .btn.sun{justify-content:center}
 .field > .seg{justify-self:start}
+/* Share picture: hide the buttons and floating bars while the picture is taken */
+body.shooting .no-shot,body.shooting #updbar,body.shooting #toasts,body.shooting .cc-pill{visibility:hidden}
+.shot-prev{display:block;max-width:100%;max-height:55vh;margin:12px auto 4px;border-radius:10px;border:1px solid var(--line)}
 /* Team targets */
 .tg-card{margin-bottom:14px}
 .tg-sub{margin:0;padding:0 16px 12px;font-size:13px}
