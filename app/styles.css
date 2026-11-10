@@ -353,7 +353,9 @@ svg.chart text{fill:var(--muted);font-size:11px;font-family:var(--f-body)}
 .tg-p{border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:12px;align-content:start}
 .tg-ph{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.tg-ph b{font-family:var(--f-display);font-size:18px}.tg-ph span{font-size:12.5px}
 .tg-top{display:flex;justify-content:space-between;gap:8px;font-size:13.5px}.tg-top span{color:var(--muted);text-align:right}
-.tg-bar{height:8px;border-radius:99px;background:var(--surface-2);overflow:hidden;margin:6px 0 4px}.tg-bar i{display:block;height:100%;background:var(--sun);border-radius:99px}
+.tg-bar{position:relative;height:8px;border-radius:99px;background:var(--surface-2);overflow:hidden;margin:6px 0 4px}
+.tg-mark{position:absolute;top:0;bottom:0;width:2px;margin-left:-1px;background:var(--ink);opacity:.85}
+.tg-pace{font-size:12.5px;font-weight:600;margin-bottom:2px}.tg-pace.ok{color:var(--good)}.tg-pace.behind{color:var(--warn)}.tg-bar i{display:block;height:100%;background:var(--sun);border-radius:99px}
 .tg-row.won .tg-bar i{background:var(--good)}.tg-row.won .tg-top span{color:var(--good);font-weight:600}
 .tg-sm{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
 .tg-foot{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}.tg-foot.won{color:var(--good);font-weight:600}
