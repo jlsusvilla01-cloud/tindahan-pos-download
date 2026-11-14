@@ -106,6 +106,7 @@ body.viewonly .bottomnav{grid-template-columns:repeat(8,1fr)}
 .dg-sec{display:grid;gap:10px}.dg-sec[aria-disabled="true"]{opacity:.45}
 .dg-h{font-weight:700;font-size:14px}
 .bal-card{width:min(560px,100%)}
+.bc-btns{justify-content:flex-end;gap:10px}.bc-btns .btn{padding:12px 18px}
 .bc-res{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 14px;border-radius:12px;border:1px solid var(--line)}
 .bc-res b{text-align:right}.bc-res small{grid-column:1/-1}
 .bc-res.match{border-color:var(--good)}.bc-res.match b{color:var(--good)}
