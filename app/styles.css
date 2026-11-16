@@ -434,6 +434,7 @@ body.shooting .no-shot,body.shooting #updbar,body.shooting #toasts,body.shooting
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
 .toolbar .input{max-width:320px}
 .sumrow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:14px}
+.sumrow.five{grid-template-columns:repeat(5,minmax(0,1fr))}
 .sumrow .card{padding:14px 16px}
 .sumrow .v{font-family:var(--f-display);font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:4px}
 .custs{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
@@ -454,7 +455,7 @@ body.shooting .no-shot,body.shooting #updbar,body.shooting #toasts,body.shooting
   .kpis,.strip{grid-template-columns:repeat(2,minmax(0,1fr))}
   .sell{grid-template-columns:minmax(0,1fr) 340px}
 }
-@media (max-width:980px){ .dgrid{grid-template-columns:minmax(0,1fr)} .sumrow{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width:980px){ .dgrid{grid-template-columns:minmax(0,1fr)} .sumrow,.sumrow.five{grid-template-columns:repeat(2,minmax(0,1fr))} }
 @media (max-width:860px){
   .app{grid-template-columns:minmax(0,1fr)}
   .side{display:none}
@@ -477,7 +478,7 @@ body.shooting .no-shot,body.shooting #updbar,body.shooting #toasts,body.shooting
   .toasts{bottom:calc(140px + env(safe-area-inset-bottom,0px))}
 }
 @media (max-width:520px){
-  .kpis,.strip,.sumrow{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .kpis,.strip,.sumrow,.sumrow.five{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
   .kpi{padding:12px 14px}
   .kpi .v{font-size:22px}
   .page-head h1{font-size:24px}
