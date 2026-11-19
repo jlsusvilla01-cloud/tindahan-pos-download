@@ -394,6 +394,9 @@ body.shooting .no-shot,body.shooting #updbar,body.shooting #toasts,body.shooting
 .li.voided .t,.li.voided .num{color:var(--muted);text-decoration:line-through}
 .allbiz{margin-bottom:14px}
 .dg-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.dg-obs{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px}
+.pill.obs{cursor:pointer;display:inline-flex;align-items:center;gap:6px;border:0;font:inherit;font-size:12.5px}
+.pill.obs b{text-decoration:underline}
 .dg-sw{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap}
 .cw-quick{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin-bottom:14px}
 .cw-v{display:grid;gap:4px;padding:14px 16px;text-align:left;cursor:pointer;color:var(--ink);font:inherit}
