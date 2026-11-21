@@ -367,6 +367,25 @@ svg.chart text{fill:var(--muted);font-size:11px;font-family:var(--f-body)}
 .gp-chart{padding:12px 16px 14px;border-top:1px solid var(--line)}.gp-ch{font-size:12.5px;margin-bottom:6px}
 /* Share picture: hide the buttons and floating bars while the picture is taken */
 body.shooting .no-shot,body.shooting #updbar,body.shooting #toasts,body.shooting .cc-pill{visibility:hidden}
+.cl-bar{display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap;justify-content:space-between}
+.cl-bar .field{margin:0;min-width:170px}
+.cl-btns{gap:8px;flex-wrap:wrap}
+.cl-rep{margin-top:14px;border:1px solid var(--line);border-radius:12px;padding:14px 16px;max-height:58vh;overflow:auto}
+.cl-head{display:flex;flex-direction:column;gap:2px;margin-bottom:10px}
+.cl-head b{font-size:17px}
+.cl-flags{border-radius:10px;padding:10px 12px;background:var(--warn-soft);margin-bottom:6px}
+.cl-flags.ok{background:var(--good-soft)}
+.cl-flags ul{margin:6px 0 0;padding-left:18px}
+.cl-secs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:4px 22px}
+.cl-sec h3{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
+.cl-row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line)}
+.cl-row>div{display:flex;flex-direction:column;min-width:0}
+.cl-row small{color:var(--muted);font-size:12px}
+.cl-row b{white-space:nowrap;font-variant-numeric:tabular-nums}
+.cl-row.big b{font-size:16px}
+.cl-row b.up{color:var(--good)}
+.cl-row b.down{color:var(--bad)}
+.cl-foot{font-size:12.5px;margin:10px 0 0}
 .shot-prev{display:block;max-width:100%;max-height:55vh;margin:12px auto 4px;border-radius:10px;border:1px solid var(--line)}
 /* Team targets */
 .tg-card{margin-bottom:14px}
