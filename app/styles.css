@@ -386,6 +386,13 @@ body.shooting .no-shot,body.shooting #updbar,body.shooting #toasts,body.shooting
 .cl-row b.up{color:var(--good)}
 .cl-row b.down{color:var(--bad)}
 .cl-foot{font-size:12.5px;margin:10px 0 0}
+body.pflock .pf{display:none!important}
+.ad-lock{max-width:520px;margin:30px auto;text-align:center;display:grid;gap:12px;justify-items:center;padding:28px}
+.ad-lock h2{margin:0}.ad-lock p{margin:0}
+.ad-ic{width:64px;height:64px;border-radius:18px;display:grid;place-items:center;background:var(--brand-soft);color:var(--brand)}
+.ad-who{justify-content:center;gap:8px;flex-wrap:wrap}
+.pill.ad-pill{cursor:pointer;display:inline-flex;align-items:center;gap:6px;border:0;font:inherit;font-size:12.5px;background:var(--sun-soft);color:var(--ink)}
+.pill.ad-pill b{text-decoration:underline}
 .shot-prev{display:block;max-width:100%;max-height:55vh;margin:12px auto 4px;border-radius:10px;border:1px solid var(--line)}
 /* Team targets */
 .tg-card{margin-bottom:14px}
