@@ -393,6 +393,13 @@ body.pflock .pf{display:none!important}
 .ad-who{justify-content:center;gap:8px;flex-wrap:wrap}
 .pill.ad-pill{cursor:pointer;display:inline-flex;align-items:center;gap:6px;border:0;font:inherit;font-size:12.5px;background:var(--sun-soft);color:var(--ink)}
 .pill.ad-pill b{text-decoration:underline}
+.sn{display:flex;gap:10px;align-items:flex-start;text-align:left;border-radius:12px;padding:10px 12px;background:var(--sun-soft);font-size:13.5px}
+.sn-cctv{background:var(--bad-soft)}
+.rec{display:inline-block;flex:none;width:10px;height:10px;border-radius:50%;background:#E53935;margin-top:4px;animation:recblink 1.4s ease-in-out infinite}
+@keyframes recblink{50%{opacity:.25}}
+.pill.cctv-pill{display:inline-flex;align-items:center;gap:6px;background:var(--bad-soft);color:var(--ink);font-weight:700}
+.pill.cctv-pill .rec{margin-top:0}
+.sn-biz{margin-bottom:12px}
 .shot-prev{display:block;max-width:100%;max-height:55vh;margin:12px auto 4px;border-radius:10px;border:1px solid var(--line)}
 /* Team targets */
 .tg-card{margin-bottom:14px}
