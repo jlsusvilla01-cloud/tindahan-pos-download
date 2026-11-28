@@ -402,6 +402,7 @@ body.pflock .pf{display:none!important}
 .sn-biz{margin-bottom:12px}
 .vr-list{display:grid;gap:6px}
 .set-lock{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.vw-card .li .btn{margin-left:4px}
 .shot-prev{display:block;max-width:100%;max-height:55vh;margin:12px auto 4px;border-radius:10px;border:1px solid var(--line)}
 /* Team targets */
 .tg-card{margin-bottom:14px}
